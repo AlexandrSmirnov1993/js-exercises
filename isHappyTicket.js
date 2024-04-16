@@ -1,3 +1,5 @@
+//Examples
+
 // isHappyTicket('385916'); // true
 // isHappyTicket('231002'); // false
 // isHappyTicket('1222');   // false
