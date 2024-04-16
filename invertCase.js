@@ -3,6 +3,7 @@
 // invertCase('Hello, World!'); // hELLO, wORLD!
 // invertCase('I loVe JS');     // i LOvE js
 
+
 // 1-st variant
 // function invertCase(str) {
 //   let result = "";
@@ -14,6 +15,7 @@
 //   }
 //   return result;
 // }
+
 
 // 2-nd variant
 function invertCase(str) {
