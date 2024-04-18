@@ -1,3 +1,5 @@
+// "In a "lucky" ticket, the sum of the first half of the digits is equal to the sum of the second half of the digits. The ticket numbers can be of any length, with the only condition being that the number of digits is always even, for example: 33 or 2341 and so on."
+
 //Examples
 
 // isHappyTicket('385916'); // true

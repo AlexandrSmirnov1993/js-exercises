@@ -1,8 +1,9 @@
+// "Implement a function that changes the case of each letter in a string to its opposite. The function should return the resulting string.";
+
 //Examples
 
 // invertCase('Hello, World!'); // hELLO, wORLD!
 // invertCase('I loVe JS');     // i LOvE js
-
 
 // 1-st variant
 // function invertCase(str) {
@@ -15,7 +16,6 @@
 //   }
 //   return result;
 // }
-
 
 // 2-nd variant
 function invertCase(str) {
