@@ -10,6 +10,26 @@
 
 // Conclusion: number 7 - is happy.
 
-function isHappyNumber(num) {}
+//Main function
+function isHappyNumber(num) {
+  for (let i = 0; i < 10 && num != 1; i++) {
+    num = sumOfSquareDigits(num);
+  }
+  if (num == 1) return true;
+  else if (num != 1) return false;
+}
+
+// Function helper
+function sumOfSquareDigits(num) {
+  arrayNum = num.toString().split("");
+  let resultArray = 0;
+  for (let i = 0; i < arrayNum.length; i++) {
+    let element = arrayNum[i];
+    resultArray += element ** 2;
+  }
+  return resultArray;
+}
 
 console.log(isHappyNumber(7));
+console.log(isHappyNumber(10));
+console.log(isHappyNumber(9));
