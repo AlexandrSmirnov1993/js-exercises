@@ -5,11 +5,14 @@
 // kayak
 // Never odd or even
 //He lived as a devil, eh?
+//123454321
 
 function isPalindrome(str) {
-  return str.toLowerCase() === str.split("").reverse().join("").toLowerCase();
+  str = str.toLowerCase().replace(/\s|[,.!?"]/g, "");
+  return str === str.split("").reverse().join("");
 }
 
 console.log(isPalindrome("kayak"));
 console.log(isPalindrome("Never odd or even"));
 console.log(isPalindrome("He lived as a devil, eh?"));
+console.log(isPalindrome("123454321"));
